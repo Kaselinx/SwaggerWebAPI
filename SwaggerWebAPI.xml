@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerWebAPI.Controllers.WebApiController.QueryLoading">
+            <summary>
+            test query3333
+            </summary>
+        </member>
+        <member name="M:SwaggerWebAPI.Controllers.WebApiController.TestWithTransInsert">
+            <summary>
+            test trans safty
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.Controllers.WebApiController.TestWithTransWith2Con">
+            <summary>
+            test trans safty with 2 DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.Controllers.WebApiController.Submit2(SwaggerWebAPI.Model.WeatherForecast)">
+            <summary>
+            
+            </summary>
+            <param name="forecast"></param>
+        </member>
+        <member name="M:SwaggerWebAPI.Controllers.WebApiController.Submit(SwaggerWebAPI.Model.WeatherForecast)">
+            <summary>
+            
+            </summary>
+            <param name="forecast"></param>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SwaggerWebAPI.DataAccess.DataAccessService"/> class.
+            </summary>
+            <param name="connectionString">Connection string used to connect to the database</param>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsyncwithTimeoutTime``1(System.String,System.Object,System.Int32,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="param">查詢參數物件</param>
+            <param name="timeoutSecs">SQL執行Timeout秒數</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>x
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``1(System.String,System.Object,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="param">查詢參數物件</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>x
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``3(System.String,System.Func{``0,``1,``2},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數物件</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``4(System.String,System.Func{``0,``1,``2,``3},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TThird">回覆的資料類型3</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``5(System.String,System.Func{``0,``1,``2,``3,``4},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TThird">回覆的資料類型3</typeparam>
+            <typeparam name="TFourth">回覆的資料類型4</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``6(System.String,System.Func{``0,``1,``2,``3,``4,``5},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TThird">回覆的資料類型3</typeparam>
+            <typeparam name="TFourth">回覆的資料類型4</typeparam>
+            <typeparam name="TFifth">回覆的資料類型5</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``7(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TThird">回覆的資料類型3</typeparam>
+            <typeparam name="TFourth">回覆的資料類型4</typeparam>
+            <typeparam name="TFifth">回覆的資料類型5</typeparam>
+            <typeparam name="TSixth">回覆的資料類型6</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAsync``8(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Object,System.String,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢資料
+            </summary>
+            <typeparam name="TFirst">回覆的資料類型1</typeparam>
+            <typeparam name="TSecond">回覆的資料類型2</typeparam>
+            <typeparam name="TThird">回覆的資料類型3</typeparam>
+            <typeparam name="TFourth">回覆的資料類型4</typeparam>
+            <typeparam name="TFifth">回覆的資料類型5</typeparam>
+            <typeparam name="TSixth">回覆的資料類型6</typeparam>
+            <typeparam name="TSeventh">回覆的資料類型7</typeparam>
+            <typeparam name="TReturn">回覆的資料類型</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="map">資料物件的組成方法</param>
+            <param name="param">查詢參數</param>
+            <param name="splitOn">使用join條件時，回傳資料的切分欄位</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryFirstOrDefaultAsync``1(System.String,System.Object,System.Boolean,System.Data.CommandType)">
+            <summary>
+            查詢第一筆資料
+            (無結果回傳Null)
+            </summary>
+            <typeparam name="TResult">回傳的資料型態</typeparam>
+            <param name="querySql">SQL敘述</param>
+            <param name="param">查詢參數</param>
+            <param name="readOnlyConnection">是否使用 Read Only Connetion</param>
+            <param name="commandType">敘述類型</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryAll``1">
+            <summary>
+            查詢全部資料
+            </summary>
+            <typeparam name="TResult">資料封裝的物件類型</typeparam>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryById``1(System.Int32)">
+            <summary>
+            依主鍵Primary Key取回單筆資料
+            </summary>
+            <typeparam name="TResult">資料封裝的物件類型</typeparam>
+            <param name="id">Primary Key</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryById``1(System.Int64)">
+            <summary>
+            依主鍵Primary Key取回單筆資料
+            </summary>
+            <typeparam name="TResult">資料封裝的物件類型</typeparam>
+            <param name="id">Primary Key</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.QueryById``1(System.String)">
+            <summary>
+            依主鍵Primary Key取回單筆資料
+            </summary>
+            <typeparam name="TResult">資料封裝的物件類型</typeparam>
+            <param name="id">Primary Key</param>
+            <returns>資料物件</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.TestInsertWithTranscation">
+            <summary>
+            測試 Transcation Scope
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.TestInsertWithDiffDB">
+            <summary>
+            測試 Transcation Scope with 2 DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.InsertThreeAsync``3(``0,``1,``2)">
+            <summary>
+            新增三個不同類型資料
+            </summary>
+            <typeparam name="T">新增資料物件Type</typeparam>
+            <typeparam name="T2">新增資料物件Type2</typeparam>
+            <typeparam name="T3">新增資料物件Type3</typeparam>
+            <param name="insertEntities">新增物件</param>
+            <param name="insertEntities2">新增物件2</param>
+            <param name="insertEntities3">新增物件3</param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.InsertTwoAsync``2(``0,``1)">
+            <summary>
+            新增二個不同類型資料
+            </summary>
+            <typeparam name="T">新增資料物件Type</typeparam>
+            <typeparam name="T2">新增資料物件Type2</typeparam>
+            <param name="insertEntities">新增物件</param>
+            <param name="insertEntities2">新增物件2</param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.GetDbConnection(System.Boolean)">
+            <summary>
+            建立資料庫連線
+            </summary>
+            <param name="readOnlyConnection">是否唯讀</param>
+            <returns>資料庫連線</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.GetStrDbConnection(System.Boolean)">
+            <summary>
+            建立資料庫連線
+            </summary>
+            <param name="readOnlyConnection">是否唯讀</param>
+            <returns>資料庫連線</returns>
+        </member>
+        <member name="M:SwaggerWebAPI.DataAccess.DataAccessService.GetSqlDbConnection(System.Boolean)">
+            <summary>
+            GetSqlDbConnection
+            </summary>
+            <param name="readOnlyConnection">readOnlyConnection</param>
+            <returns></returns>
+        </member>
+        <member name="T:SwaggerWebAPI.DataAccess.DBColumnType">
+            <summary>
+            定義Model的類型
+            </summary>
+        </member>
+        <member name="F:SwaggerWebAPI.DataAccess.DBColumnType.Char">
+            <summary>
+            char型態
+            </summary>
+        </member>
+        <member name="F:SwaggerWebAPI.DataAccess.DBColumnType.String">
+            <summary>
+            char型態
+            </summary>
+        </member>
+        <member name="P:SwaggerWebAPI.Model.WeatherForecast.Date">
+            <summary>
+            The date of the forecast in ISO-whatever format
+            </summary>
+            <example>2020-01-01</example>
+        </member>
+        <member name="P:SwaggerWebAPI.Model.WeatherForecast.TemperatureC">
+            <summary>
+            Temperature in celcius
+            </summary>
+            <example>25</example>
+        </member>
+        <member name="P:SwaggerWebAPI.Model.WeatherForecast.Summary">
+            <summary>
+            A textual summary
+            </summary>
+            <example>Cloudy with a chance of rain</example>
+        </member>
+        <member name="T:DataAccess.ColumnAttribute.ColumnAttribute">
+            <summary>
+            定义表的Column字段属性
+            现在支持设置字段的大小
+            </summary>
+        </member>
+        <member name="M:DataAccess.ColumnAttribute.ColumnAttribute.#ctor">
+            <summary>
+            Column Attribute contstruction
+            </summary>
+            <param name="size"></param>
+        </member>
+        <member name="M:DataAccess.ColumnAttribute.ColumnAttribute.#ctor(System.Int32)">
+            <summary>
+            初始化Column Attribute，并且设置字段大小
+            </summary>
+            <param name="size">字段大小</param>
+        </member>
+        <member name="P:DataAccess.ColumnAttribute.ColumnAttribute.Size">
+            <summary>
+            返回字段大小
+            </summary>
+        </member>
+        <member name="P:DataAccess.ColumnAttribute.ColumnAttribute.TypeName">
+            <summary>
+            返回字段类型
+            </summary>
+        </member>
+    </members>
+</doc>

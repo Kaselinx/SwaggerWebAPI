@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerWebAPI", "SwaggerWebAPI.csproj", "{4C3F15CB-0C2A-482F-A4EE-9D1F79056DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3F15CB-0C2A-482F-A4EE-9D1F79056DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3F15CB-0C2A-482F-A4EE-9D1F79056DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3F15CB-0C2A-482F-A4EE-9D1F79056DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3F15CB-0C2A-482F-A4EE-9D1F79056DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41BB49EE-4220-462A-8C36-A60B1DDA8451}
+	EndGlobalSection
+EndGlobal
